@@ -17,5 +17,6 @@ wordcloud = WordCloud(width=800, height=800, background_color='black').generate(
 plt.figure(figsize=(8, 8))
 plt.imshow(wordcloud, interpolation='bilinear')
 plt.axis("off")
-plt.show()
 plt.savefig('wordcloud_image.png')
+plt.show()
+#came back and had to switch the above 2 lines as it was causing a bug
